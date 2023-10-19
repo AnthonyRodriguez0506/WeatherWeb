@@ -14,7 +14,7 @@ body {
     max-width: 470px;
     background: linear-gradient(to right, #7bb5f5, hsl(212, 100%, 64%));
     color: #fff;
-    margin: 100px auto 0;
+    margin: 40px auto 0;
     border-radius: 20px;
     padding: 40px 35px;
     text-align: center;
@@ -76,8 +76,7 @@ body {
 .weather h2 { /*City*/
     font-size: 40px;
     font-weight: 100;
-    margin-top: -26px;
-    font-style: italic;
+    margin-top: -20px;
 }
 
 .details {
@@ -85,7 +84,7 @@ body {
     align-items: center;
     justify-content: space-between;
     padding: 0px 20px;
-    margin-top: 50px;
+    margin-top: 40px;
 }
 
 .col {
@@ -104,4 +103,16 @@ body {
 .humidity .wind {
     font-size: 28px;
     margin-top: -6px;
+}
+
+.weather {
+    display: none;
+}
+
+.error {
+    text-align: left;
+    margin-left: 10px;
+    font-size: 14px;
+    margin-top: 10px;
+    display: none;
 }
