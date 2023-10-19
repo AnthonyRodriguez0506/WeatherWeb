@@ -7,16 +7,17 @@
 
 body {
     background: linear-gradient(to right, #001022, #001d3d);
+    font-size: 16px;
 }
 
 .card {
-    width: 90%;
-    max-width: 470px;
+    width: 28.125em;
+    max-width: 29.375em;
     background: linear-gradient(to right, #7bb5f5, hsl(212, 100%, 64%));
     color: #fff;
-    margin: 40px auto 0;
-    border-radius: 20px;
-    padding: 40px 35px;
+    margin: 2.5em auto 0;
+    border-radius: 1.25em;
+    padding: 2.5em 2.1875em;
     text-align: center;
 }
 
@@ -32,12 +33,12 @@ body {
     outline: 0;
     background-color: #ffffff;
     color: #555;
-    padding: 10px 25px;
-    height: 60px;
-    border-radius: 30px;
+    padding: 0.625em 1.5625em;
+    height: 3.75em;
+    border-radius: 1.875em;
     flex: 1;
-    margin-right: 16px;
-    font-size: 16px;
+    margin-right: 1em;
+    font-size: 1em;
 }
 
 .search button {
@@ -45,13 +46,13 @@ body {
     outline: 0;
     background: #ffffff;
     border-radius: 50%;
-    width: 60px;
-    height: 60px;
+    width: 3.75em;
+    height: 3.75em;
     cursor: pointer;
 }
 
 .search button img {
-    width: 32px;
+    width: 2em;
     user-select: none;
     pointer-events: none;
 }
@@ -62,29 +63,29 @@ body {
 }
 
 .weather-icon {
-    width: 170px;
-    margin-top: 30px;
+    width: 10.625em;
+    margin-top: 1.875em;
     user-select: none;
     pointer-events: none;
 }
 
-.weather h1 { /*Temp*/
-    font-size: 80px;
+.weather h1 {
+    font-size: 5em;
     font-weight: bold;
 }
 
-.weather h2 { /*City*/
-    font-size: 40px;
+.weather h2 {
+    font-size: 2.5em;
     font-weight: 100;
-    margin-top: -20px;
+    margin-top: -0.4em;
 }
 
 .details {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 0px 20px;
-    margin-top: 40px;
+    padding: 0 1.25em;
+    margin-top: 2.5em;
 }
 
 .col {
@@ -96,13 +97,13 @@ body {
 }
 
 .col img {
-    width: 40px;
-    margin-right: 10px;
+    width: 2.5em;
+    margin-right: 0.625em;
 }
 
 .humidity .wind {
-    font-size: 28px;
-    margin-top: -6px;
+    font-size: 1.75em;
+    margin-top: -0.375em;
 }
 
 .weather {
@@ -111,8 +112,8 @@ body {
 
 .error {
     text-align: left;
-    margin-left: 10px;
-    font-size: 14px;
-    margin-top: 10px;
+    margin-left: 0.625em;
+    font-size: 0.875em;
+    margin-top: 0.625em;
     display: none;
 }
