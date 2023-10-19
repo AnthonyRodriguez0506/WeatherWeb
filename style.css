@@ -116,3 +116,23 @@ body {
     margin-top: 10px;
     display: none;
 }
+
+@media (max-width: 767px) {
+    .card {
+        width: 100%;
+        padding: 30px 20px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+    .card {
+        width: 80%;
+        max-width: 600px;
+    }
+}
+
+@media (min-width: 1024px) {
+    .card {
+        max-width: 800px;
+    }
+}
